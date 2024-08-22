@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+
+<body class="text-gray-600 ">
+    <div class="grid md:grid-cols-3"> <!--All content wrapper -->
+        
+        <div class="md:col-span-1 md:flex md:justify-end">
+            <nav class="text-right">
+
+                <div class="flex justify-between items-center">
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="/"> House of the Dragon</a>
+                    </h1>
+
+                    <div class="px-4 md:hidden cursor-pointer" id="burger">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>
+                          
+                    </div>
+                </div>
+
+                <ul class="text-sm mt-6 hidden md:block" id="menu">
+                    <li class="text-gray-700 font-bold py-2">
+                        <a class="px-4 flex justify-end border-r-4 border-primary" href="#">
+                             <span>Home</span>
+                             
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="  ml-2 w-5 size-6">
+                                <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                                <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                              </svg>
+                              
+                              
+                        </a>
+                    </li>
+
+                    <li class="py-2">
+                        <a class="px-4 flex justify-end border-r-4 border-white" href="#">
+                             <span>Blacks</span>
+                             <img class=" ml-2 w-5" src="../assets/blacks.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="py-2">
+                        <a class="px-4 flex justify-end border-r-4 border-white" href="#">
+                             <span>Greens</span>
+                             <img class=" ml-2 w-5" src="../assets/greens.png" alt="">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div> <!-- Nav End-->
+
+        <main class="px-16 py-6 bg-gray-100  md:col-span-2">
+            <div class="flex justify-center md:justify-end">
+                <a class=" btn text-primary border-primary md:border-2 hover:text-white hover:bg-primary transition ease-out duration-500" href="#">Login</a>
+                <a class="btn text-primary ml-2 border-primary md:border-2 hover:text-white hover:bg-primary transition ease-out duration-500"  href="#">Signup</a>
+
+            </div>
+
+            <header>
+                <h2 class="text-gray-700 font-bold text-2xl md:text-5xl">All Must Choose</h2>
+                <h2 class=" font-semibold text-2xl md:text-3xl">The War is Here</h2>
+            </header>
+
+            <div>
+                <h3 class="font-bold mt-12 pb-2 border-b border-gray-200 text-3xl">Latest dragons</h3>
+
+                <div class="mt-8 grid lg:grid-cols-3 gap-10 ">
+                    <!-- Cards -->
+                     <div  class="card">
+                            <img class="w-full h-52 sm:h-56 object-cover" src="../assets/syrax4.jpg" alt="syrax">
+                        
+                        <div class="m-4">
+                            <span class="font-bold">SYRAX The Geraldine</span>
+                            <span class=" block text-sm text-gray-700">Queen Rhaenyra Targaryen</span>
+                        </div>
+
+                        <div class="logo">
+                            <img src="../assets/blacks.jpg" alt="">
+                        </div>
+                     </div> <!-- Card end-->
+
+
+                     <div  class="card">
+                        <img class="w-full h-52 sm:h-56 object-cover" src="../assets/caraxes.jpg" alt="syrax">
+                    
+                    <div class="m-4">
+                        <span class="font-bold">CARAXES The Blood Wyrm</span>
+                        <span class=" block text-sm text-gray-600">Prince Daemon Targaryen</span>
+                    </div>
+
+                    <div class="logo">
+                        <img src="../assets/blacks.jpg" alt="">
+                    </div>
+                 </div> <!-- Card end-->
+
+
+                 <div  class="card">
+                    <img class="w-full h-52 sm:h-56 object-cover" src="../assets/meleys1.jpg" alt="syrax">
+                
+                <div class="m-4">
+                    <span class="font-bold">MELEYS The Red Queen</span>
+                    <span class=" block text-sm text-gray-600">Princess Rhaenys Targaryen</span>
+                </div>
+
+                <div class="logo">
+                    <img src="../assets/blacks.jpg" alt="">
+                </div>
+             </div> <!-- Card end-->
+
+
+                </div>
+
+                <h3 class="font-bold mt-12 pb-2 border-b border-gray-200 text-3xl">Most popular</h3>
+
+                <div>
+                    <!-- Cards-->
+                </div>
+
+                <div>
+                    <div class="flex justify-center">
+                        <a class="btn bg-secondary-100 text-secondary-200 rounded-lg py-2 px-2" href="#"> Load More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
